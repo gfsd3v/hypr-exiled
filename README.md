@@ -1,4 +1,4 @@
-# Hypr Exiled 🎮⚡
+# Hypr Exiled 
 
 A lightweight Path of Exile trade manager built for keyboard power users and tiling WM's.
 
@@ -6,20 +6,17 @@ https://github.com/user-attachments/assets/5ea48204-d9b2-4690-8db5-b96446b869f4
 
 ## Who/What this is for
 
-- **NixOS** and other AppImage-restricted distros 🐧
-- **Hyprland** users wanting native integration 🪟
+- **NixOS** and other AppImage-restricted distros
+- **Hyprland** users wanting native integration 
 - **X11 Window Managers** with xdotool support:
   - i3
   - bspwm
   - dwm
   - awesome
   - xmonad
-- Keyboard-driven workflows without mouse dependency ⌨️
+- Keyboard-driven workflows without mouse dependency 
 
-> 📝 X11 support requires `xdotool` package installed
-
-
-### Benefits 🚀
+> X11 support requires `xdotool` package installed
 
 - **Single initialization**: All components initialized once in background service
 - **Clean separation**: Trade management vs direct actions vs UI layers
@@ -29,7 +26,7 @@ https://github.com/user-attachments/assets/5ea48204-d9b2-4690-8db5-b96446b869f4
   2. Handler function
   3. Client flag
 
-## Installation & Usage Guide 🛠️
+## Installation & Usage Guide
 
 ### System Requirements
 
@@ -185,17 +182,17 @@ If you have both games installed and they aren't in the default path you will ne
 3. Verify correct permissions on PoE log file
 4. Check window manager integration (`xdotool` for `X11`, `hyprctl` for Hyprland)
 
-## Core Features ✨
+## Core Features 
 
-- Real-time trade monitoring 🔍
-- Rofi-powered keyboard interface 🎨
+- Real-time trade monitoring
+- Rofi-powered keyboard interface
 - Theoretical X11 support (untested) via `xdotool`:
   - Should work on common X11 distributions (Arch, Debian, Ubuntu, Fedora)
   - Compatible with tiling WMs like i3, bspwm, dwm, awesome, xmonad
   - Requires `xdotool` package installed
-- Automated trade responses 🤖
+- Automated trade responses
 
-## Documentation 📚
+## Documentation
 
 ### Architecture Overview
 
@@ -211,7 +208,7 @@ If you have both games installed and they aren't in the default path you will ne
 - [Notify](pkg/notify/DOC.MD): System notifications
 - [Config](pkg/config/DOC.MD): Configuration management
 
-## For developers 👩‍💻
+## For developers
 
 ### Architecture
 
